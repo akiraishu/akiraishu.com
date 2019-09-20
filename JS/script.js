@@ -10,7 +10,7 @@ var shiftColor = function () {
 };
 
 
-var bass = {
+/* var bass = {
 					brand: 'epiphone',
 					model: 'thunderbird',
 					color: 'white',
@@ -50,3 +50,4 @@ var bass = {
 
 
 				console.log('javascript')
+*/
