@@ -7,12 +7,7 @@ var shiftColor = function () {
 		} else {
 			document.getElementById('JSdiv').className = 'JSdiv';
 		}
-
-}
-
-
-
-
+};
 
 
 var bass = {
