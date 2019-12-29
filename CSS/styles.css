@@ -1,40 +1,52 @@
 body {
 	color: #f3f3f3;
 	background-color: #444443;
-	font-family: courier, monospace;
-	padding-left: 10px;
+	font-family: 'Space Mono', monospace;
+	padding-left: 1%;
 	margin: auto;
 }
 
 
 p {
 	font-size: 20px;
+	font-family: 'Space Mono', monospace;
 	
 }
 
+.clarification {
+	font-family: 'Space Mono', monospace;
+	font-style: italic;
+	font-size: 75%;
+
+}
 
 h1 {
-	font-size: 44px;
-	letter-spacing: 20px;
-	max-width: 1000px;
+	font-size: 55px;
+	font-family: 'Space Mono', monospace;
+	letter-spacing: 10px;
+	max-width: 100%;
 }
 
 
 h2 {
+	font-family: 'Space Mono', monospace;
 	font-size: 35px;
 
 }
 
 
 h3 {
+	font-family: 'Space Mono', monospace;
 	font-size: 30px;
-	text-indent: 0%;
+	padding-left: : 2.5%;
 }
 
 
 a {
+	font-family: 'Space Mono', monospace;
 	color: #c6c6c6;
 	letter-spacing: 2px;
+	text-decoration: none;
 
 }
 
@@ -48,15 +60,18 @@ a:active {
 
 
 li {
+	padding-left: 2.5%;
+	font-family: 'Space Mono', monospace;
 	list-style: none;
 }
 
 li p {
-
-	padding-left: 25px;
+	font-family: 'Space Mono', monospace;
+	padding-left: 2.5%;
 }
 
-footer p{
+
+footer p {
 	font-style: italic;
 	font-size: 13px;
 	text-align: right;
@@ -66,6 +81,9 @@ footer p{
 }
 
 .home {
+	margin-top: -2.5%;
+	font-size: 30px;
+	font-weight: bold;
 
 }
 
@@ -86,4 +104,11 @@ footer p{
 	background-color: white;
 	font-size: 55px;
 	font-weight: bold;
+}
+
+.labnol {
+	max-width: auto;
+	table-layout: auto;
+
+
 }
