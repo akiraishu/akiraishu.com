@@ -87,6 +87,7 @@ footer p {
 
 }
 
+/* 
 .JSdiv a {
 	color: black;
 }
@@ -105,10 +106,30 @@ footer p {
 	font-size: 55px;
 	font-weight: bold;
 }
+*/
+
+.video-container {
+	display: grid;
+	grid-template-columns: auto;
+	grid-auto-flow: column;
+}
+
 
 .labnol {
+	background-color: none;
+	min-width: 100%;
+    min-height: 100%;
 	max-width: auto;
+	max-height: auto;
 	table-layout: auto;
+	overflow: hidden;
+	border-collapse: collapse;
+	align-content: center;
+}
 
-
+.flickering {
+	width: auto;
+	height: 100%;
+	display: table;
+	border-collapse: collapse;
 }
