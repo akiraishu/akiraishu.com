@@ -4,6 +4,7 @@ body {
 	font-family: 'Space Mono', monospace;
 	padding-left: 1%;
 	margin: auto;
+	padding-right: 1%;
 }
 
 
@@ -116,20 +117,13 @@ footer p {
 
 
 .labnol {
-	background-color: none;
-	min-width: 100%;
-    min-height: 100%;
-	max-width: auto;
-	max-height: auto;
+	min-width: auto;
+    min-height: auto;
+	max-width: 100%;
+	max-height: 100%;
 	table-layout: auto;
 	overflow: hidden;
 	border-collapse: collapse;
 	align-content: center;
 }
 
-.flickering {
-	width: auto;
-	height: 100%;
-	display: table;
-	border-collapse: collapse;
-}
