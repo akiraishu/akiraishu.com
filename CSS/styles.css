@@ -23,8 +23,9 @@ p {
 
 h1 {
 	font-size: 55px;
+	font-style: bold;
 	font-family: 'Space Mono', monospace;
-	letter-spacing: 10px;
+	letter-spacing: 2px;
 	max-width: 100%;
 }
 
@@ -77,8 +78,16 @@ footer p {
 	font-size: 13px;
 	text-align: right;
 	padding-top: 15px;
-	padding-right: 20px;
+	padding-right: 1%;
 	color: #646464;
+}
+
+footer a {
+	color: #646464;
+}
+
+footer a:hover {
+	text-decoration: none;
 }
 
 .home {
